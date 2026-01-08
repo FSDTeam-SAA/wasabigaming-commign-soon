@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="bg-yellow-400 text-black text-sm py-1 px-4">
                 <div className="container mx-auto py-3 flex justify-start space-x-2">
                     <Link href="/coming-soon" className="hover:underline">
-                      <h3>  Students</h3>
+                        <h3>  Students</h3>
                     </Link>
                     <span>|</span>
                     <Link href="/coming-soon" className="hover:underline">
