@@ -18,17 +18,16 @@ export default function Home() {
       className="min-h-screen"
 
     >
-      <div className="max-w-7xl mx-auto px-4">
-        <Hero />
-        <ToolsSection />
-        <CommunitySection />
-        <HowItWorksSection />
-        <FeaturedOpportunities />
-        <ReviewsSection />
-        <Testomonial/>
-        <FAQSection />
-        
-      </div>
+      <Hero />
+      <ToolsSection />
+
+      <CommunitySection />
+      <HowItWorksSection />
+      <FeaturedOpportunities />
+      <ReviewsSection />
+      <Testomonial />
+      <FAQSection />
+
     </main>
   )
 }

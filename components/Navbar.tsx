@@ -1,4 +1,5 @@
 "use client";
+import { ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -9,7 +10,7 @@ const Navbar = () => {
     return (
         <header>
             {/* Top Strip */}
-            <div className="bg-yellow-400 text-black text-sm py-1 px-4">
+            <div className="bg-[#FFFFB0] flex  text-black text-sm py-1 px-4">
                 <div className="container mx-auto py-3 flex justify-start space-x-2">
                     <Link href="/coming-soon" className="hover:underline">
                         <h3>  Students</h3>
@@ -19,10 +20,16 @@ const Navbar = () => {
                         <h3>School</h3>
                     </Link>
                 </div>
+                <div className='flex justify-center items-center'>
+                    <Link href="/coming-soon" className="hover:underline ">
+                        <h2 className='flex  items-center'> Contact With Us <span className='ml-2'><ChevronRight /></span></h2>
+                    </Link>
+
+                </div>
             </div>
 
             {/* Main Navbar */}
-            <nav className="bg-[linear-gradient(90deg,#FEF26D_0%,#FEF9C2_100%)] py-4 px-8 mt-0">
+            <nav className="bg-[#FFFFFF]  border-b border-[#B6B6B6] py-4 px-8 mt-0">
                 <div className="flex items-center justify-between container mx-auto">
                     {/* Logo */}
                     <div className="flex items-center space-x-4">
@@ -38,33 +45,33 @@ const Navbar = () => {
                     </div>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex items-center bg-[#FFFFFF66] space-x-8 border border-[#E6E6E6] rounded-full text-black font-medium">
-                        <li className="py-5 px-8">
+                    <ul className="hidden md:flex items-center bg-[#EBEBEB] space-x-8 border border-[#EBEBEB] rounded-full text-black font-medium">
+                        <li className="py-3 px-4">
                             <Link href="/coming-soon" className="hover:text-gray-800 cursor-pointer">
                                 Application Tracker
                             </Link>
                         </li>
-                        <li className="py-5 px-8">
+                        <li className="py-3 px-4">
                             <Link href="/coming-soon" className="hover:text-gray-800 cursor-pointer">
                                 Law Firm Profiles
                             </Link>
                         </li>
-                        <li className="py-5 px-8">
+                        <li className="py-3 px-4">
                             <Link href="/coming-soon" className="hover:text-gray-800 cursor-pointer">
                                 Event
                             </Link>
                         </li>
-                        <li className="py-5 px-8">
+                        <li className="py-3 px-4">
                             <Link href="/coming-soon" className="hover:text-gray-800 cursor-pointer">
                                 Courses
                             </Link>
                         </li>
-                        <li className="py-5 px-8">
+                        <li className="py-3 px-4">
                             <Link href="/coming-soon" className="hover:text-gray-800 cursor-pointer">
                                 Mock Interviews
                             </Link>
                         </li>
-                        <li className="py-5 px-8 relative group">
+                        <li className="py-3 px-4 relative group">
                             <Link href="/coming-soon" className="hover:text-gray-800 cursor-pointer">
                                 More
                             </Link>

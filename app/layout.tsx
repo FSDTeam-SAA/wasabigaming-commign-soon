@@ -26,9 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${sourceSansPro.className} antialiased`}
-        style={{
-          background: "linear-gradient(174.98deg, #FDF063 -4.84%, #FEFBDD 105.75%)",
-        }}
       >
         <Navbar />
         {children}
