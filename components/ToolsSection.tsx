@@ -54,7 +54,7 @@ const ToolsSection = () => {
         {/* Features Button - Top Left */}
         <div>
 
-          <Button variant="secondary" size="sm" className="rounded-full bg-white/90 backdrop-blur">
+          <Button variant="secondary" size="sm" className="rounded-full bg-white/90 text-[#9135EA] backdrop-blur">
             <Sparkles className="mr-2 h-4 w-4" />
             Features
           </Button>
@@ -130,7 +130,7 @@ const ToolsSection = () => {
             width={900}
             height={900}
             quality={100}
-            className="object-contain w-[1240px] rounded-lg border-[8px] border-[#EBEBEB]"
+            className="object-contain w-[1440px] rounded-lg border-[8px] border-[#EBEBEB]"
           />
         </div>
       </div>
