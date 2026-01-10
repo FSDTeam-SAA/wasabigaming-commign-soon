@@ -1,0 +1,43 @@
+import React from 'react'
+import { Button } from './ui/button'
+import { Sparkles } from 'lucide-react'
+import Image from 'next/image'
+
+const Interview = () => {
+    return (
+        <div style={{
+            backgroundImage: "url('/banner.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+        }}>
+
+            <div className="container flex flex-col items-center gap-24 lg:flex-row ">
+                <div className="py-28">
+                    <Image
+                        src="/project4.png"
+                        alt="How It Works"
+                        width={1200}
+                        height={600}
+                        className="w-full h-auto rounded-xl"
+                        priority
+                    />
+                </div>
+                <div className="py-16">
+                    <Button variant="secondary" size="sm" className="rounded-full bg-[#EBEBEB] text-[#2B6BA1] backdrop-blur">
+                        <Sparkles className="mr-2 h-4 w-4" />
+                        Interview Practice Tool
+                    </Button>
+                    <div className='mt-2'>
+                        <h3 className="text-3xl sm:text-[52px] leading-[60px]  font-bold mb-4"><span className='text-[#E4E403]'>Mock Interview </span> <span>Simulation</span> <br />Practice real interview  <br /> scenarios and build confidence</h3>
+                        <p className='max-w-2xl text-[#5A5A5A]'>Practise realistic interview questions across different formats,<br /> including strengths based, competency based, and motivation <br /> focused interviews. Build clear answers, improve communication, <br /> and feel more confident before applying for work experience, <br /> apprenticeships, or university.</p>
+                    </div>
+                    <Button className="py-3 px-12 mt-6 rounded-full hover:bg-[#FFFF00]/90  bg-[#FFFF00] text-[#282828] font-bold">Starting Now</Button>
+                </div>
+
+            </div>
+
+        </div>
+    )
+}
+
+export default Interview

@@ -1,32 +1,38 @@
-import React from 'react';
+"use client";
+import React, { useEffect, useState } from 'react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { Button } from './ui/button';
-import Image from 'next/image';
 
 
 const Hero = () => {
+    const words = ["DREAMS", "FUTURE", "PASSION"];
+
+    const [index, setIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setIndex((prev) => (prev + 1) % words.length);
+        }, 2000); // 2 seconds
+
+        return () => clearInterval(interval);
+    }, [words]);
+
+
     return (
-        <section className="relative text-center py-20 px-4 bg-gradient-to-r  overflow-hidden"
+        <section className=" text-center py-20 px-4 bg-gradient-to-r  overflow-hidden"
             style={{
                 backgroundImage: "url('/hero.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
         >
-            {/* Decorative Stars */}
-            <div className="absolute top-8 left-4 text-black text-3xl animate-pulse">✦</div>
-            <div className="absolute top-12 right-4 text-black text-4xl opacity-80">★</div>
-            <div className="absolute bottom-16 right-8 text-black text-3xl opacity-70 animate-pulse">✦</div>
-            <div className="absolute top-32 left-1/3 text-black text-xl">★</div>
-            <div className="absolute top-1/4 right-1/3 text-black text-lg animate-pulse">✦</div>
-
             <div className=' flex  justify-center'>
 
 
                 <div className=''>
                     {/* Heading */}
-                    <h1 className="text-4xl sm:text-5xl text-center md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                        PURSUE YOUR LEGAL <span className='text-[#E4E403]'>DREAMS</span><br />
+                    <h1 className="text-4xl sm:text-5xl text-center md:text-[52px]  font-bold text-gray-900 mb-6  ">
+                        PURSUE YOUR LEGAL <br /> <span className='text-[#E4E403]'> {words[index]} </span>
                         WITH CONFIDENCE
                     </h1>
 
@@ -82,13 +88,13 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col relative  sm:flex-row justify-center items-center gap-4 mt-12">
-                <Button className="w-full sm:w-auto bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-[#1E1E1E] border border-[#CACA00] font-bold py-4 px-10 sm:px-16 rounded-full shadow-xl transition-all duration-300 text-lg">
-                    Start now
+                <Button className="w-full sm:w-auto bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-[#1E1E1E] border border-[#CACA00] font-bold py-6 px-10 sm:px-16 rounded-full shadow-xl transition-all duration-300 text-lg">
+                    Join the Community!
                 </Button>
                 {/* <Button variant="outline" className="w-full sm:w-auto border-2 border-[#C2C227] text-[#6B6B6B] font-bold py-4 px-10 sm:px-16 rounded-full transition-all duration-300 text-lg bg-transparent">
                     Join Community
                 </Button> */}
-                <Image src="/star.png" alt="Logo" width={100} height={100} className="w-16 h-16 absolute top-1/1 right-64" />
+                {/* <Image src="/star.png" alt="Logo" width={100} height={100} className="w-16 h-16 absolute top-1/1 right-64" /> */}
             </div>
 
             {/* Info Section
