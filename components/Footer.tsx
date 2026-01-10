@@ -17,8 +17,9 @@ const Footer = () => {
               className="mb-6"
             />
             <p className="text-gray-700 text-lg leading-relaxed max-w-sm">
-              Aspiring helps you create professional, job-ready resumes in minutes. Build,
-              customise, and share your CV with ease to take the next step in your career.
+              Aspiring helps you create professional, job-ready resumes in
+              minutes. Build, customise, and share your CV with ease to take the
+              next step in your career.
             </p>
           </div>
 
@@ -27,17 +28,26 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-gray-900 mb-4">About</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-700 hover:text-gray-900 transition">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-gray-900 transition"
+                >
                   About us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-gray-900 transition">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-gray-900 transition"
+                >
                   Contact us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-gray-900 transition">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-gray-900 transition"
+                >
                   FAQ
                 </a>
               </li>
@@ -46,10 +56,15 @@ const Footer = () => {
 
           {/* Legal Links */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Legal and Accessibility</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">
+              Legal and Accessibility
+            </h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-700 hover:text-gray-900 transition">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-gray-900 transition"
+                >
                   Privacy policies
                 </a>
               </li>
