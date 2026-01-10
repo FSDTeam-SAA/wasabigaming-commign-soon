@@ -10,24 +10,40 @@ import {
 export const FAQSection = () => {
   const faqs = [
     {
-      question: 'What is the Aspiring Legal Network & Who can Join?',
+      question: 'How does Aspiring Legal Network support schools and teachers?',
       answer:
-        'The Aspiring Legal Network is open to anyone interested in a career in law. Whether you are exploring solicitor apprenticeships, applying for training contracts, or just getting started, ALN is here to guide and support you.',
+        'Aspiring Legal Network supports schools by providing structured, practical exposure to legal careers. We work with teachers and careers leads to deliver sessions, resources, and tools that help students understand legal pathways, develop key skills, and prepare for future progression.',
     },
     {
-      question: 'How can ALN help me prepare for applications?',
+      question: 'Which students is Aspiring Legal Network suitable for?',
       answer:
-        "ALN offers step-by-step guidance on crafting standout applications, including CV and cover letter reviews, application form templates, competency question banks, and real examples from successful candidates. You'll get structured support to make your application strong and tailored.",
+        'Aspiring Legal Network is suitable for students of all ages and stages. Content and activities can be adapted to suit different year groups, cohorts, and levels of experience, from early exploration through to application preparation.',
     },
     {
-      question: 'What are the main routes into a legal career?',
+      question: 'What types of activities and support are available?',
       answer:
-        'The main routes are: 1) The traditional university route (Law or non-law degree + SQE), 2) The solicitor apprenticeship (work-based learning with no degree required), and 3) The new SQE route for graduates. ALN covers guidance for all pathways.',
+        'Support includes careers assemblies, interactive workshops, mock trials, skills sessions, and application focused activities. Schools also have access to tools that support student tracking, engagement monitoring, and progression over time.',
     },
     {
-      question: 'What skills do law firms look for in candidates?',
+      question: 'Can sessions be delivered in school or online?',
       answer:
-        'Top firms seek commercial awareness, attention to detail, teamwork, communication, resilience, analytical thinking, and initiative. ALN helps you develop and demonstrate these skills through practical exercises and real-world insights.',
+        'Yes. Sessions can be delivered in school, online, or at external venues such as universities or professional spaces. Delivery is flexible and designed to fit around school timetables and priorities.',
+    },
+    {
+      question: 'Do students need prior legal knowledge to take part?',
+      answer:
+        'No prior legal knowledge is required. All sessions are designed to be accessible and age appropriate, with content introduced clearly and progressively.',
+    },
+    {
+      question:
+        'How does Aspiring Legal Network align with careers education requirements?',
+      answer:
+        'Activities are designed to support high quality careers provision by developing awareness, skills, and informed decision making. Schools can use engagement and progression data to evidence impact and support reporting and inspection requirements.',
+    },
+    {
+      question: 'How can schools get involved or request further information?',
+      answer:
+        'Schools can contact us via the website or by email to discuss their needs.',
     },
   ]
 
