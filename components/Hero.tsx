@@ -15,7 +15,7 @@ const Hero = () => {
         }, 2000); // 2 seconds
 
         return () => clearInterval(interval);
-    }, [words .length]);
+    }, [words.length]);
 
 
     return (

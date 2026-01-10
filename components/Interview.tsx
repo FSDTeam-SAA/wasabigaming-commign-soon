@@ -11,8 +11,8 @@ const Interview = () => {
             backgroundPosition: "center",
         }}>
 
-            <div className="container flex flex-col items-center gap-24 lg:flex-row ">
-                <div className="py-28">
+            <div className="container flex flex-col items-center lg:gap-24 lg:flex-row ">
+                <div className="lg:py-28 py-7 ">
                     <Image
                         src="/project4.png"
                         alt="How It Works"
@@ -28,7 +28,7 @@ const Interview = () => {
                         Interview Practice Tool
                     </Button>
                     <div className='mt-2'>
-                        <h3 className="text-3xl sm:text-[52px] leading-[60px]  font-bold mb-4"><span className='text-[#E4E403]'>Mock Interview </span> <span>Simulation</span> <br />Practice real interview  <br /> scenarios and build confidence</h3>
+                        <h3 className="text-3xl sm:text-[52px] leading-10 lg:leading-[60px]  font-bold mb-4"><span className='text-[#E4E403]'>Mock Interview </span> <span>Simulation</span> <br />Practice real interview  <br /> scenarios and build confidence</h3>
                         <p className='max-w-2xl text-[#5A5A5A]'>Practise realistic interview questions across different formats,<br /> including strengths based, competency based, and motivation <br /> focused interviews. Build clear answers, improve communication, <br /> and feel more confident before applying for work experience, <br /> apprenticeships, or university.</p>
                     </div>
                     <Button className="py-3 px-12 mt-6 rounded-full hover:bg-[#FFFF00]/90  bg-[#FFFF00] text-[#282828] font-bold">Starting Now</Button>
