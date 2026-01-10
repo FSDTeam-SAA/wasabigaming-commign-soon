@@ -15,7 +15,7 @@ export const FAQSection = () => {
         'The Aspiring Legal Network is open to anyone interested in a career in law. Whether you are exploring solicitor apprenticeships, applying for training contracts, or just getting started, ALN is here to guide and support you.',
     },
     {
-      question: 'How can ALN help me prepare for applications?',
+      question: 'Who is Aspiring Legal Network for?',
       answer:
         "ALN offers step-by-step guidance on crafting standout applications, including CV and cover letter reviews, application form templates, competency question banks, and real examples from successful candidates. You'll get structured support to make your application strong and tailored.",
     },
@@ -28,6 +28,21 @@ export const FAQSection = () => {
       question: 'What skills do law firms look for in candidates?',
       answer:
         'Top firms seek commercial awareness, attention to detail, teamwork, communication, resilience, analytical thinking, and initiative. ALN helps you develop and demonstrate these skills through practical exercises and real-world insights.',
+    },
+    {
+      question: 'What is the Aspiring Legal Network & Who can Join?',
+      answer:
+        'The Aspiring Legal Network is open to anyone interested in a career in law. Whether you are exploring solicitor apprenticeships, applying for training contracts, or just getting started, ALN is here to guide and support you.',
+    },
+    {
+      question: 'What is the Aspiring Legal Network & Who can Join?',
+      answer:
+        'The Aspiring Legal Network is open to anyone interested in a career in law. Whether you are exploring solicitor apprenticeships, applying for training contracts, or just getting started, ALN is here to guide and support you.',
+    },
+    {
+      question: 'What is the Aspiring Legal Network & Who can Join?',
+      answer:
+        'The Aspiring Legal Network is open to anyone interested in a career in law. Whether you are exploring solicitor apprenticeships, applying for training contracts, or just getting started, ALN is here to guide and support you.',
     },
   ]
 
