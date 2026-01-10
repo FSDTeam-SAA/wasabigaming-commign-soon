@@ -1,72 +1,86 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from 'next/image'
 
-export default function Footer() {
+export const Footer = () => {
   return (
-    <footer>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {/* Logo and Description */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/logo.png"
-                alt="Logo"
-                width={1000}
-                height={1000}
-                className="w-[108px] h-[64px] object-contain z-50"
-              />
-             
-            </div>
-            <p className="text-[#131313] text-base leading-relaxed">
-              Aspiring helps you build a professional, job-ready resume in minutes, get insight into law, and share your
-              CV with elite supporting Tomorrow&apos;s Legal Talent. Today to take the next step in your career.
+    <footer className="main-bg-color py-12 px-4">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-8">
+          {/* Logo & Description */}
+          <div className="flex flex-col items-start">
+            <Image
+              src={'/aspiring.png'}
+              alt="Aspiring Legal Network Logo"
+              width={120}
+              height={120}
+              className="mb-6"
+            />
+            <p className="text-gray-800 text-sm md:text-base leading-relaxed">
+              Supporting Tomorrow&apos;s Legal Talent Today!
             </p>
           </div>
 
-          {/* About Column */}
-          <div className="space-y-4">
-            <h3 className="font-bold text-black text-lg">About</h3>
-            <ul className="space-y-3">
+          {/* About Links */}
+          <div className="text-left">
+            <h3
+              className="text-xl font-bold text-gray-900 mb-4"
+              style={{ fontFamily: "'Neuton', serif" }}
+            >
+              About
+            </h3>
+            <ul className="space-y-2">
               <li>
-                <Link href="/coming-soon" className="text-gray-800 hover:text-black text-sm transition">
+                <a
+                  href="#"
+                  className="text-gray-800 hover:text-gray-900 transition text-sm md:text-base"
+                >
                   About us
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/coming-soon" className="text-gray-800 hover:text-black text-sm transition">
+                <a
+                  href="#"
+                  className="text-gray-800 hover:text-gray-900 transition text-sm md:text-base"
+                >
                   Contact us
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/coming-soon" className="text-gray-800 hover:text-black text-sm transition">
+                <a
+                  href="#"
+                  className="text-gray-800 hover:text-gray-900 transition text-sm md:text-base"
+                >
                   FAQ
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
 
-          {/* Legal and Accessibility Column */}
-          <div className="space-y-4">
-            <h3 className="font-bold text-black text-lg">Legal and Accessibility</h3>
-            <ul className="space-y-3">
+          {/* Legal Links */}
+          <div className="text-left">
+            <h3
+              className="text-xl font-bold text-gray-900 mb-4"
+              style={{ fontFamily: "'Neuton', serif" }}
+            >
+              Legal and Accesibility
+            </h3>
+            <ul className="space-y-2">
               <li>
-                <Link href="/coming-soon" className="text-gray-800 hover:text-black text-sm transition">
+                <a
+                  href="#"
+                  className="text-gray-800 hover:text-gray-900 transition text-sm md:text-base"
+                >
                   Privacy policies
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Divider */}
-        <div className="border-t-2 border-black my-8"></div>
-
-        {/* Copyright */}
-        <div className="text-center">
-          <p className="text-gray-800 text-xs">© copyright aspriinglegalnetwok.in 2023. All rights reserved</p>
-        </div>
+        {/* Divider & Copyright */}
+        <hr className="border-gray-400 mt-12 md:mt-16 mb-6" />
+        <p className="text-left text-[#424242] font-bold text-sm main-font md:text-xl">
+          @copyright aspiringlegalwork.2025 . All right reserves
+        </p>
       </div>
     </footer>
   )

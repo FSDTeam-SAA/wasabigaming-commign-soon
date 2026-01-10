@@ -7,12 +7,18 @@
   .text-balance {
     text-wrap: balance;
   }
+  .main-bg-color {
+    background: linear-gradient(180deg, #ffee35 0%, #fffabf 100%);
+  }
+  .main-font {
+    font-family: 'Neuton', serif;
+  }
 }
 
-h3, Button {
+h3,
+Button {
   font-family: 'Neuton', serif;
 }
-
 
 @layer base {
   :root {
@@ -70,8 +76,6 @@ h3, Button {
     --chart-5: 340 75% 55%;
   }
 }
-
-
 
 @layer base {
   * {
