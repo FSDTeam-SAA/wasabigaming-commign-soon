@@ -176,7 +176,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
-  const isActive = (path) => pathname === path;
+const isActive = (path: string): boolean => pathname === path;
 
   return (
     <header>

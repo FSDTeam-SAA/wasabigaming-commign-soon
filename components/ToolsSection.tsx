@@ -123,14 +123,14 @@ const ToolsSection = () => {
             </Button> */}
           </div>
         </div>
-        <div className="flex overflow-hidden mt-10 items-center  justify-center">
+        <div className="flex overflow-hidden mt-10  items-center  justify-center">
           <Image
             src="/project1.png"
             alt="Community"
             width={900}
             height={900}
             quality={100}
-            className="object-contain w-[1440px] rounded-lg border-[8px] border-[#EBEBEB]"
+            className="object-contain w-[1440px]  rounded-lg "
           />
         </div>
       </div>
