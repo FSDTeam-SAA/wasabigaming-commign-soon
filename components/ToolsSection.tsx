@@ -40,6 +40,7 @@
 import React from 'react'
 import { Button } from './ui/button'
 import { Sparkles } from 'lucide-react'
+import Image from 'next/image'
 
 const ToolsSection = () => {
   return (
@@ -121,6 +122,16 @@ const ToolsSection = () => {
               Profile
             </Button> */}
           </div>
+        </div>
+        <div className="flex overflow-hidden mt-10 items-center  justify-center">
+          <Image
+            src="/project1.png"
+            alt="Community"
+            width={900}
+            height={900}
+            quality={100}
+            className="object-contain w-[1240px] rounded-lg border-[8px] border-[#EBEBEB]"
+          />
         </div>
       </div>
     </div>

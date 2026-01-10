@@ -20,7 +20,6 @@ export default function Home() {
     >
       <Hero />
       <ToolsSection />
-
       <CommunitySection />
       <HowItWorksSection />
       <FeaturedOpportunities />
