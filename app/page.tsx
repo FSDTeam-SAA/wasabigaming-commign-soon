@@ -4,7 +4,7 @@
 import CommunitySection from '@/components/CommunitySection'
 import { FAQSection } from '@/components/FAQSection'
 
-import FeaturedOpportunities from '@/components/FeaturedOpportunities'
+// import FeaturedOpportunities from '@/components/FeaturedOpportunities'
 import Hero from '@/components/Hero'
 import HowItWorksSection from '@/components/HowItWorksSection'
 import Interview from '@/components/Interview'
@@ -26,7 +26,7 @@ export default function Home() {
       <Opportunities />
       <Model />
       <Interview />
-      <FeaturedOpportunities />
+      {/* <FeaturedOpportunities /> */}
       <HowALNWorks />
       <AchievementsSection />
       <Testomonial />

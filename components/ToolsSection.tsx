@@ -59,10 +59,10 @@ const ToolsSection = () => {
             Features
           </Button>
 
-          <div className="mt-3 grid grid-cols-1 mb-14 lg:grid-cols-3 gap-12 items-center">
+          <div className="mt-3 grid grid-cols-1 mb-14 lg:grid-cols-3 gap-4 lg:gap-12 items-center">
             {/* Left Side - Text */}
             <div>
-              <h1 className="text-5xl md:text-[40px] font-black text-gray-900 leading-tight">
+              <h1 className="text-3xl md:text-[40px] font-black text-gray-900 leading-tight">
                 Everything You Need to
                 <br />
                 Launch Your Career
@@ -123,14 +123,14 @@ const ToolsSection = () => {
             </Button> */}
           </div>
         </div>
-        <div className="flex overflow-hidden mt-10 items-center  justify-center">
+        <div className="flex overflow-hidden mt-10  items-center  justify-center">
           <Image
             src="/project1.png"
             alt="Community"
             width={900}
             height={900}
             quality={100}
-            className="object-contain w-[1440px] rounded-lg border-[8px] border-[#EBEBEB]"
+            className="object-contain w-[1440px]  rounded-lg "
           />
         </div>
       </div>

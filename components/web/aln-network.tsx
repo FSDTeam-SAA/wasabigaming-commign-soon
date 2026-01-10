@@ -61,7 +61,7 @@ const HowALNWorks = () => {
         </div>
 
         {/* Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-12 md:gap-20 items-center">
           {/* Left Side - Images */}
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative max-w-md">

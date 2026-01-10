@@ -5,12 +5,12 @@ import { Sparkles } from 'lucide-react'
 
 const CommunitySection = () => {
     return (
-        <section className="py-28 px-4" style={{
+        <section className="lg:py-28 py-7 px-4" style={{
             backgroundImage: "url('/banner.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
         }}>
-            <div className="mx-auto container flex flex-col-reverse lg:flex-row items-center gap-40">
+            <div className="mx-auto container flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-40">
                 {/* Image */}
                 <div className="w-full max-w-md sm:max-w-lg lg:max-w-xl">
                     <Image
@@ -31,7 +31,7 @@ const CommunitySection = () => {
                         <Sparkles className="mr-2 h-4 w-4" />
                         Career Insight Tools
                     </Button>
-                    <h3 className="text-3xl sm:text-[52px] leading-[60px]  font-bold mb-4">
+                    <h3 className="text-3xl sm:text-[52px] leading-10 lg:leading-[60px]  font-bold mb-4">
                         <span className='text-[#E4E403]'>Psychometric Test</span>
                         <br />
                         Discover your strengths,
