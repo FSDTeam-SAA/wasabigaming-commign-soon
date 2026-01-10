@@ -15,11 +15,11 @@ const Hero = () => {
         }, 2000); // 2 seconds
 
         return () => clearInterval(interval);
-    }, [words]);
+    }, [words .length]);
 
 
     return (
-        <section className=" text-center py-20 px-4 bg-gradient-to-r  overflow-hidden"
+        <section className=" text-center py-[110px]  px-4 bg-gradient-to-r  overflow-hidden"
             style={{
                 backgroundImage: "url('/hero.jpg')",
                 backgroundSize: "cover",
@@ -51,36 +51,60 @@ const Hero = () => {
       sm:shadow-[0px_8px_16px_0px_#00000014,8px_0px_16px_0px_#00000014]
     "
                 >
+                    {/* Select Wrapper */}
+                    <div className="flex w-full sm:w-auto sm:border  border-[#E7E7E7] sm:rounded-full overflow-hidden">
 
-                    {/* Type Select */}
-                    <Select>
-                        <SelectTrigger className="rounded-full py-3 px-4 border-0 bg-transparent text-gray-700 focus:ring-0">
-                            <SelectValue placeholder="Select Type" />
-                        </SelectTrigger>
-                        <SelectContent>
-                            <SelectItem value="type1">Type 1</SelectItem>
-                            <SelectItem value="type2">Type 2</SelectItem>
-                            <SelectItem value="type3">Type 3</SelectItem>
-                        </SelectContent>
-                    </Select>
+                        {/* Type Select */}
+                        <Select>
+                            <SelectTrigger
+                                className="
+            w-full sm:w-[400px]
+            py-3 px-4
+            border
+            sm:border-0 sm:border-r
+            rounded-full sm:rounded-none sm:rounded-l-full
+            bg-transparent
+            text-[#131313]
+            focus:ring-0
+          "
+                            >
+                                <SelectValue placeholder="Select Type" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="type1">Type 1</SelectItem>
+                                <SelectItem value="type2">Type 2</SelectItem>
+                                <SelectItem value="type3">Type 3</SelectItem>
+                            </SelectContent>
+                        </Select>
 
-                    {/* Location Select */}
-                    <Select>
-                        <SelectTrigger className=" rounded-full py-3 px-4 border-0 bg-transparent text-gray-700 focus:ring-0">
-                            <SelectValue placeholder="Select Location" />
-                        </SelectTrigger>
-                        <SelectContent>
-                            <SelectItem value="location1">Location 1</SelectItem>
-                            <SelectItem value="location2">Location 2</SelectItem>
-                            <SelectItem value="location3">Location 3</SelectItem>
-                        </SelectContent>
-                    </Select>
+                        {/* Location Select */}
+                        <Select>
+                            <SelectTrigger
+                                className="
+            w-full sm:w-[400px]
+            py-3 px-4
+            border
+            sm:border-0
+            rounded-full sm:rounded-none sm:rounded-r-full
+            bg-transparent
+            text-[#131313]
+            focus:ring-0
+          "
+                            >
+                                <SelectValue placeholder="Select Location" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="location1">Location 1</SelectItem>
+                                <SelectItem value="location2">Location 2</SelectItem>
+                                <SelectItem value="location3">Location 3</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
 
                     {/* Search Button */}
-                    <Button className="w-full sm:w-auto bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-gray-900 border border-[#CACA00] font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300">
+                    <Button className="w-full sm:w-auto bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-gray-900 border border-[#CACA00] font-bold py-4 px-6 rounded-full shadow-lg transition-all duration-300">
                         Search
                     </Button>
-
                 </div>
             </div>
 
