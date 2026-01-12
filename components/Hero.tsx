@@ -35,9 +35,9 @@ const Hero = () => {
       <div className=" flex  justify-center">
         <div className="">
           {/* Heading */}
-          <h1 className="text-4xl sm:text-5xl text-center md:text-[52px] leading-[60px] font-bold text-gray-900 mb-6  ">
+          <h1 className="text-4xl sm:text-5xl text-center md:text-[52px] leading-10 lg:leading-[60px] font-bold text-gray-900 mb-6">
             PURSUE YOUR LEGAL <br />{' '}
-            <span className="text-[#E4E403]"> {words[index]} </span>
+            <span className="text-[#E4E403]"> {words[index]}</span>
             WITH CONFIDENCE
           </h1>
 
@@ -89,7 +89,7 @@ const Hero = () => {
       </div>
 
       {/* CTA Buttons */}
-      <div className="flex flex-col relative  sm:flex-row justify-center items-center gap-4 mt-12">
+      <div className="flex flex-col relative  sm:flex-row justify-center items-center gap-4 lg:mt-12">
         <Button className="w-full sm:w-auto bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-[#1E1E1E] border border-[#CACA00] font-bold py-6 px-10 sm:px-16 rounded-full shadow-xl transition-all duration-300 text-lg">
           Join the Community!
         </Button>

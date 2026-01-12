@@ -11,10 +11,10 @@ const Assembly = () => {
             backgroundPosition: "center",
         }}>
 
-            <div className="container lg:py-20 py-10 flex flex-col items-center lg:gap-24 lg:flex-row ">
+            <div className="container lg:py-20 pb-12 flex flex-col items-center lg:gap-24 lg:flex-row ">
                 <div className="py-16 ">
                     <Image
-                        src="/career.png"
+                        src="/career.jpg"
                         alt="How It Works"
                         width={1200}
                         height={600}

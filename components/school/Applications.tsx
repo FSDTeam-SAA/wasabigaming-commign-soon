@@ -12,7 +12,7 @@ const Applications = () => {
         }}>
 
             <div className="container flex flex-col items-center lg:gap-36 lg:flex-row ">
-                <div className="py-16">
+                <div className="lg:py-16 pt-10">
                     <Image
                         src="/schoolProject3.png"
                         alt="How It Works"

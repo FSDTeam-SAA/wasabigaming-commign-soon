@@ -31,17 +31,13 @@ const CommunitySection = () => {
                         <Sparkles className="mr-2 h-4 w-4" />
                         Career Insight Tools
                     </Button>
-                    <h3 className="text-3xl sm:text-[52px] leading-10 lg:leading-[60px]  font-bold mb-4">
-                        <span className='text-[#E4E403]'>Psychometric Test</span>
-                        <br />
-                        Discover your strengths,
-                        <br />
-                        interests, and career fit
+                    <h3 className="text-2xl sm:text-[52px] leading-10 lg:leading-[60px]  font-bold mb-4">
+                        <span className='text-[#E4E403]'>Psychometric Test </span> Discover your strengths, interests, and career fit
                     </h3>
 
                     <p className='text-[#5A5A5A]'>Discover how your skills, interests, and working style align with different career paths, helping you make more confident choices about your next steps.</p>
 
-                    <Button className="py-3 px-8 mt-6 rounded-full  bg-[#FFFF00] text-[#0A0A0A] font-bold">
+                    <Button className="py-3 px-8 mt-6 rounded-full hover:bg-[#E4E403]/90  bg-[#FFFF00] text-[#0A0A0A] font-bold">
                         Start Assessment
                     </Button>
                 </div>
