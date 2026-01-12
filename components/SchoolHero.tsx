@@ -176,7 +176,7 @@ export function SchoolHero() {
 
                             <Button
                                 variant="outline"
-                                className="border-2 border-black bg-black text-white hover:bg-black/90 font-semibold rounded-full px-8 py-3 text-base"
+                                className="border-2 border-black bg-black text-white hover:bg-black/90 hover:text-white font-semibold rounded-full px-8 py-3 text-base"
                             >
                                 Start Demo Trial
                             </Button>

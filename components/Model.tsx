@@ -18,7 +18,7 @@ const Model = () => {
                         Model View with AI
                     </Button>
                     <div className='mt-2'>
-                        <h3 className="text-3xl sm:text-[52px] lg:leading-[60px]  font-bold mb-4">Keep track of every <br /> <span className='text-[#E4E403]'>Application Tracker </span>in one  hub</h3>
+                        <h3 className="text-2xl sm:text-[52px] lg:leading-[60px]  font-bold mb-4">Keep track of every <br /> <span className='text-[#E4E403]'>Application Tracker </span>in one  hub</h3>
                         <p className='max-w-2xl text-[#5A5A5A]'>Stay organised by tracking all your applications in one hub. Add notes, deadlines, and updates so you can see what you have applied for, what is coming up next, and where you may need to follow up.</p>
                     </div>
                     <Button className="py-3 px-12 mt-6 rounded-full hover:bg-[#E4E403]  bg-[#FFFF00] text-[#282828] font-bold">Start Tracking Now</Button>

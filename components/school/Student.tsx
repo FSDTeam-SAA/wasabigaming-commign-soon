@@ -11,22 +11,22 @@ const Student = () => {
             backgroundPosition: "center",
         }}>
 
-            <div className="container py-16 flex flex-col items-center lg:gap-60 lg:flex-row ">
-                <div className="py-16">
+            <div className="container lg:py-16 flex flex-col items-center lg:gap-60 lg:flex-row ">
+                <div className="lg:py-16 py-10">
                     <Button variant="secondary" size="sm" className="rounded-full bg-[#EBEBEB] text-[#2B6BA1] backdrop-blur">
                         <Sparkles className="mr-2 h-4 w-4" />
                         Student Tracking Dashboard
                     </Button>
                     <div className='mt-2'>
-                        <h3 className="text-3xl sm:text-[52px] leading-[60px]  font-bold mb-4"> Keep Track of Student <br /> Development</h3>
-                        <p className=' text-[#5A5A5A] text-[24px]'>Gain a clear view of each student’s journey, from early engagement  <br /> to progression. Monitor skills development, application activity, <br /> and participation, and identify where additional support may be <br /> needed to help students move forward with confidence.</p>
+                        <h3 className="text-2xl  sm:text-[52px] lg:leading-[60px]  font-bold mb-4"> Keep Track of Student <br /> Development</h3>
+                        <p className=' text-[#5A5A5A]'>Gain a clear view of each student’s journey, from early engagement  <br /> to progression. Monitor skills development, application activity, <br /> and participation, and identify where additional support may be <br /> needed to help students move forward with confidence.</p>
                     </div>
                     <div className='lg:mt-10 '>
                         <h3 className='text-[#131313] font-bold text-[64px]'>10K+</h3>
                         <p>Students Using The Aspiring Legal Network</p>
                     </div>                </div>
 
-                <div className="py-16 ">
+                <div className="lg:py-16 py-10">
                     <Image
                         src="/schoolProject2.png"
                         alt="How It Works"
