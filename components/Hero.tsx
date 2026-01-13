@@ -18,7 +18,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex(prev => (prev + 1) % words.length)
-    }, 2000) // 2 seconds
+    }, 2000)
 
     return () => clearInterval(interval)
   }, [words])
@@ -37,13 +37,12 @@ const Hero = () => {
           {/* Heading */}
           <h1 className="text-4xl sm:text-5xl text-center md:text-[52px] leading-10 lg:leading-[60px] font-bold text-gray-900 mb-6">
             PURSUE YOUR LEGAL <br />{' '}
-            <span className="text-[#E4E403]"> {words[index]}</span>
+            <span className="text-[#E4E403]"> {words[index]} </span>
             WITH CONFIDENCE
           </h1>
 
           <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-12 max-w-3xl mx-auto">
-            Access tools, events, and insight created for aspiring solicitors,
-            apprentices
+            Your pathway into the legal profession starts here
           </p>
         </div>
       </div>
