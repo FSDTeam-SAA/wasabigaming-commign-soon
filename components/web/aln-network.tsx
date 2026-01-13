@@ -78,7 +78,8 @@ const HowALNWorks = () => {
               </div>
 
               {/* Floating Card */}
-              <div className="absolute -bottom-8 -right-16 z-20 bg-white rounded-2xl p-4 lg:max-w-xs max-w-[240px]">
+              <div className="absolute -bottom-8 lg:-right-16 -right-6  z-20 shadow-[0_8px_16px_0_#00000014]
+ bg-white rounded-2xl p-4 lg:max-w-xs max-w-[240px]">
                 <Image
                   src="/aln2.png"
                   alt="Application preview"
@@ -102,17 +103,15 @@ const HowALNWorks = () => {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className={`relative flex items-start gap-4 p-6 rounded-2xl transition-all duration-500 ${
-                  activeStep === index ? ' shadow-lg' : 'bg-transparent'
-                }`}
+                className={`relative flex items-start gap-4 p-6 rounded-2xl transition-all duration-500 ${activeStep === index ? ' shadow-lg' : 'bg-transparent'
+                  }`}
               >
                 {/* Icon */}
                 <div
-                  className={`flex-shrink-0 w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-500 ${
-                    activeStep === index
-                      ? 'bg-green-500 shadow-lg'
-                      : 'bg-gray-200'
-                  }`}
+                  className={`flex-shrink-0 w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-500 ${activeStep === index
+                    ? 'bg-green-500 shadow-lg'
+                    : 'bg-gray-200'
+                    }`}
                 >
                   <Image
                     src={step.icon}
@@ -126,9 +125,8 @@ const HowALNWorks = () => {
                 {/* Content */}
                 <div className="flex-1">
                   <h3
-                    className={`text-xl font-bold mb-2 transition-colors duration-500 ${
-                      activeStep === index ? 'text-green-800' : 'text-gray-900'
-                    }`}
+                    className={`text-xl font-bold mb-2 transition-colors duration-500 ${activeStep === index ? 'text-green-800' : 'text-gray-900'
+                      }`}
                     style={{ fontFamily: "'Neuton', serif" }}
                   >
                     Step-{step.number}:{' '}
@@ -136,9 +134,8 @@ const HowALNWorks = () => {
                   </h3>
 
                   <p
-                    className={`text-sm leading-relaxed transition-colors duration-500 ${
-                      activeStep === index ? 'text-gray-800' : 'text-gray-700'
-                    }`}
+                    className={`text-sm leading-relaxed transition-colors duration-500 ${activeStep === index ? 'text-gray-800' : 'text-gray-700'
+                      }`}
                   >
                     {step.description}
                   </p>

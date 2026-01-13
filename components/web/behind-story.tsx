@@ -33,7 +33,7 @@ export const StoryBehind = () => {
               Founder & CEO
             </p>
 
-            <div className="space-y-1 md:space-y-3 text-[#424242] text-sm md:text-base leading-[44px]">
+            <div className="space-y-1 md:space-y-3 text-[#424242] text-sm md:text-base  lg:leading-[44px]">
               <p>
                 I founded the Aspiring Legal Network after seeing how confusing
                 and inaccessible legal careers can feel for many young people,
