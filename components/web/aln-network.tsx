@@ -46,7 +46,7 @@ const HowALNWorks = () => {
 
   return (
     <section className="bg-[#FFFEF0] py-16 relative overflow-hidden">
-      <div className="max-w-[1153px] mx-auto">
+      <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-base md:text-lg font-semibold main-font text-gray-800 mb-5">
@@ -78,7 +78,7 @@ const HowALNWorks = () => {
               </div>
 
               {/* Floating Card */}
-              <div className="absolute -bottom-8 -right-16 z-20 bg-white rounded-2xl p-4 max-w-xs">
+              <div className="absolute -bottom-8 -right-16 z-20 bg-white rounded-2xl p-4 lg:max-w-xs max-w-[240px]">
                 <Image
                   src="/aln2.png"
                   alt="Application preview"
