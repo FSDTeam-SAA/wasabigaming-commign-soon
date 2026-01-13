@@ -29,7 +29,7 @@ const Assembly = () => {
                         Book an Assembly
                     </Button>
                     <div className='mt-2'>
-                        <h3 className="text-3xl sm:text-[52px] leading-10 lg:leading-[60px]  font-bold mb-4"> <span className='text-[#E4E403]'>Career Assemblies</span> Built For  Your School</h3>
+                        <h3 className="text-2xl sm:text-[52px] leading-10 lg:leading-[60px]  font-bold mb-4"> <span className='text-[#E4E403]'>Career Assemblies</span>, Built For  Your School</h3>
                         <p className='max-w-2xl text-[#5A5A5A]'>Every package includes structured careers assemblies designed around your school’s needs. Sessions give students realistic insight into legal careers, the pathways available, and the skills required to progress, with content adapted by age group, cohort, and school priorities. <br /> <br /> Assemblies can be delivered as stand alone sessions or as part of a wider programme.</p>
                     </div>
                     <Button className="py-3 px-12 mt-6 rounded-full  bg-[#FFFF00] text-[#282828] hover:bg-[#E4E403] font-bold">Get in Touch</Button>

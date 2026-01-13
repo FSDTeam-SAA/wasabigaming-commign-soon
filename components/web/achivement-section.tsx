@@ -25,7 +25,7 @@ const achievements = [
     badgeColor: 'bg-yellow-400',
   },
   {
-    title: 'Think Like a Legal Recruiter with WF',
+    title: 'Think Like a Legal Recruiter with DWF',
     description:
       'Students gained practical guidance on applications, assessment centres and standing out as a candidate.',
     image: '/network4.jpg',
