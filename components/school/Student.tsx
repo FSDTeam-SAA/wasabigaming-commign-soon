@@ -18,8 +18,8 @@ const Student = () => {
                         Student Tracking Dashboard
                     </Button>
                     <div className='mt-2'>
-                        <h3 className="text-2xl  sm:text-[52px] lg:leading-[60px]  font-bold mb-4"> Keep Track of Student <br /> Development</h3>
-                        <p className=' text-[#5A5A5A]'>Gain a clear view of each student’s journey, from early engagement  <br /> to progression. Monitor skills development, application activity, <br /> and participation, and identify where additional support may be <br /> needed to help students move forward with confidence.</p>
+                        <h3 className="text-2xl  sm:text-[52px] lg:leading-[60px]  font-bold mb-4"> Keep Track Of Student <br /> Development</h3>
+                        <p className=' text-[#5A5A5A]'>Gain a clear view of each student’s journey, from early engagement  <br className='sm:block hidden' /> to progression. Monitor skills development, application activity, <br className='sm:block hidden' /> and participation, and identify where additional support may be <br className='sm:block hidden' /> needed to help students move forward with confidence.</p>
                     </div>
                     <div className='lg:mt-10 '>
                         <h3 className='text-[#131313] font-bold text-[64px]'>10K+</h3>

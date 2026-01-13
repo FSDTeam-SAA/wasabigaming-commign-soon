@@ -32,7 +32,7 @@ const CommunitySection = () => {
                         Career Insight Tools
                     </Button>
                     <h3 className="text-2xl sm:text-[52px] leading-10 lg:leading-[60px]  font-bold mb-4">
-                        <span className='text-[#E4E403]'>Psychometric Test </span> Discover your strengths, interests, and career fit
+                        <span className='text-[#E4E403]'>Psychometric Test <br /> </span> Discover Your Strengths, Interests, And Career Fit
                     </h3>
 
                     <p className='text-[#5A5A5A]'>Discover how your skills, interests, and working style align with different career paths, helping you make more confident choices about your next steps.</p>
