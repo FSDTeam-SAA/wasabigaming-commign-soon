@@ -35,8 +35,8 @@ export function FeaturesSection() {
                 {/* Header */}
                 <div className="text-center mb-12 md:mb-16 lg:mb-20">
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold lg:!leading-[60px] mb-3">
-                        Why Schools Choose The <span className="text-[#E4E403]">Aspiring Legal</span>
-                        <br />
+                        Why Schools Choose The <span className="text-[#E4E403]">Aspiring Legal </span>
+                        <br className="sm:block hidden" />
                         <span className="text-[#E4E403]">Network?</span>
                     </h3>
                     <p className="text-base md:text-lg text-[#666666] max-w-2xl mx-auto text-balance">

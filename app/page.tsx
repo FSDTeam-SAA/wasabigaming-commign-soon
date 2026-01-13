@@ -2,7 +2,6 @@
 // import Navbar from "@/components/web/Navbar";
 
 import CommunitySection from '@/components/CommunitySection'
-import { FAQSection } from '@/components/FAQSection'
 
 // import FeaturedOpportunities from '@/components/FeaturedOpportunities'
 import Hero from '@/components/Hero'
@@ -15,6 +14,7 @@ import ToolsSection from '@/components/ToolsSection'
 import AchievementsSection from '@/components/web/achivement-section'
 import HowALNWorks from '@/components/web/aln-network'
 import { StoryBehind } from '@/components/web/behind-story'
+import { StudentFAQSection } from '@/components/StudentFAQSection'
 
 export default function Home() {
   return (
@@ -32,7 +32,7 @@ export default function Home() {
       <Testomonial />
       {/* <ReviewsSection /> */}
       <StoryBehind />
-      <FAQSection />
+      <StudentFAQSection />
     </main>
   )
 }

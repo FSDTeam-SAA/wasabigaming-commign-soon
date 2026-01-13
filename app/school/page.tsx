@@ -1,4 +1,4 @@
-import { FAQSection } from '@/components/FAQSection'
+import { FAQSection } from '@/components/SchoolFAQSection'
 import Applications from '@/components/school/Applications'
 import Assembly from '@/components/school/Assembly'
 import Features from '@/components/school/Features'
