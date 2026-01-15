@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Model = () => {
     return (
-        <div className="bg-[#FFFFE6]"style={{
+        <div className="bg-[#FFFFE6]" style={{
             backgroundImage: "url('/banner1.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
