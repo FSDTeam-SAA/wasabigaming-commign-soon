@@ -169,6 +169,7 @@ const ToolsSection = () => {
         background: 'linear-gradient(180deg, #FFEE35 0%, #FFFABF 100%)',
       }}
     >
+      
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-6 pt-12">
         <div>
