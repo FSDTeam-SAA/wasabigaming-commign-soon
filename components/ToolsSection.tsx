@@ -155,12 +155,12 @@ const ToolsSection = () => {
   // Buttons data
   const buttons = [
     { name: 'Application Tracker', image: '/project1.png' },
-    { name: 'Law Firm Profiles', image: '/law-firm-profiles.png' },
-    { name: 'Mock Interview', image: '/Mock-Interview.png' },
-    { name: 'Assessment Centre', image: '/assessment-centre.png' },
-    { name: 'Courses', image: '/courses.png' },
-    { name: 'Cover Letter Builder', image: '/cover-letter-builder.png' },
-    { name: 'CV Builder', image: '/cv-builder.png' },
+    { name: 'Law Firm Profiles', image: '/law-firm-profiles1.png' },
+    { name: 'Mock Interview', image: '/Mock-Interview1.png' },
+    { name: 'Assessment Centre', image: '/assessment-centre1.png' },
+    { name: 'Courses', image: '/courses1.png' },
+    { name: 'Cover Letter Builder', image: '/cover-letter-builder1.png' },
+    { name: 'CV Builder', image: '/cv-builder1.png' },
   ]
 
   return (
@@ -169,7 +169,7 @@ const ToolsSection = () => {
         background: 'linear-gradient(180deg, #FFEE35 0%, #FFFABF 100%)',
       }}
     >
-      
+
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-6 pt-12">
         <div>
