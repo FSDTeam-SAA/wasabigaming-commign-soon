@@ -23,7 +23,7 @@ const Opportunities = () => {
                     />
                 </div>
 
-                <div className="py-16">
+                <div className="py-16 max-w-4xl text-center lg:text-left">
                     <Button variant="secondary" size="sm" className="rounded-full bg-[#EBEBEB] text-[#2B6BA1] backdrop-blur">
                         <Sparkles className="mr-2 h-4 w-4" />
                         Opportunity Finder

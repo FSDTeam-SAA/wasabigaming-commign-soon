@@ -12,7 +12,8 @@ const HowItWorksSection = () => {
     }}>
 
       <div className="container flex flex-col  items-center lg:gap-60  lg:flex-row ">
-        <div className="lg:py-20 py-10">
+       
+        <div className="lg:py-20 py-10 max-w-4xl text-center lg:text-left">
           <Button variant="secondary" size="sm" className="rounded-full bg-[#EBEBEB] mb-2 text-[#2B6BA1] backdrop-blur">
             <Sparkles className="mr-2 h-4 w-4" />
             Career Insight Tools
@@ -23,6 +24,7 @@ const HowItWorksSection = () => {
           </div>
           <Button className="py-3 px-12 mt-6 rounded-full  bg-[#FFFF00] hover:bg-[ #FFFF00]/80 text-[#282828] font-bold">Create Your Resume</Button>
         </div>
+       
         <div className="py-16 ">
           <Image
             src="/career.png"

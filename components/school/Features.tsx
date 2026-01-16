@@ -26,7 +26,7 @@ const Features = () => {
             {/* Main Content */}
             <div className="relative z-10 container mx-auto px-6 pt-12">
                 {/* Features Button - Top Left */}
-                <div>
+                <div className='text-center lg:text-left'>
                     <Button
                         variant="secondary"
                         size="sm"
@@ -49,7 +49,7 @@ const Features = () => {
                         <div></div>
 
                         {/* Right Side - Description + CTA */}
-                        <div className="text-start space-y-8 max-w-md">
+                        <div className="md:text-start space-y-8 max-w-md">
                             <p className="text-lg text-gray-800">
                                 The Aspiring Legal Network equips you with smart tools to build,
                                 prepare, and excel in your career.

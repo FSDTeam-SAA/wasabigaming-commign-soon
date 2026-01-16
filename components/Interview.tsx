@@ -22,14 +22,14 @@ const Interview = () => {
                         priority
                     />
                 </div>
-                <div className="py-16">
+                <div className="py-16 max-w-4xl text-center lg:text-left">
                     <Button variant="secondary" size="sm" className="rounded-full bg-[#EBEBEB] text-[#2B6BA1] backdrop-blur">
                         <Sparkles className="mr-2 h-4 w-4" />
                         Interview Practice Tool
                     </Button>
                     <div className='mt-2'>
                         <h3 className="text-2xl sm:text-[52px]  lg:leading-[60px]  font-bold mb-4"><span className='text-[#E4E403]'>Mock Interview </span> <span>Simulation</span> <br />Practice Real Interview  <br /> Scenarios And Build Confidence</h3>
-                        <p className='max-w-2xl text-[#5A5A5A]'>Practise realistic interview questions across different formats,<br /> including strengths based, competency based, and motivation <br /> focused interviews. Build clear answers, improve communication, <br /> and feel more confident before applying for work experience, <br /> apprenticeships, or university.</p>
+                        <p className='max-w-2xl text-[#5A5A5A]'>Practise realistic interview questions across different formats,<br className="md:block hidden" /> including strengths based, competency based, and motivation <br  className="md:block hidden" /> focused interviews. Build clear answers, improve communication, <br   className="md:block hidden" /> and feel more confident before applying for work experience, <br className="md:block hidden" /> apprenticeships, or university.</p>
                     </div>
                     <Button className="py-3 px-12 mt-6 rounded-full hover:bg-[#FFFF00]/90  bg-[#FFFF00] text-[#282828] font-bold">Starting Now</Button>
                 </div>

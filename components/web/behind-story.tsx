@@ -22,7 +22,7 @@ export const StoryBehind = () => {
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left Content */}
-          <div className="max-w-[409px]">
+          <div className="max-w-[409px]  text-center lg:text-left">
             <h3
               className="text-2xl font-normal text-[#131313] mb-1"
               style={{ fontFamily: "'Neuton', serif" }}
