@@ -12,7 +12,7 @@ const Minutes = () => {
     }}>
 
       <div className="container flex flex-col items-center lg:gap-60 lg:flex-row ">
-        <div className="py-20">
+        <div className="py-20 max-w-4xl text-center lg:text-left">
           <Button variant="secondary" size="sm" className="rounded-full bg-[#EBEBEB] mb-2 text-[#2B6BA1] backdrop-blur">
             <Sparkles className="mr-2 h-4 w-4" />
             Set up in minutes

@@ -12,7 +12,7 @@ const Student = () => {
         }}>
 
             <div className="container lg:py-16 flex flex-col items-center lg:gap-60 lg:flex-row ">
-                <div className="lg:py-16 py-10">
+                <div className="lg:py-16 py-10 max-w-4xl text-center lg:text-left">
                     <Button variant="secondary" size="sm" className="rounded-full bg-[#EBEBEB] text-[#2B6BA1] backdrop-blur">
                         <Sparkles className="mr-2 h-4 w-4" />
                         Student Tracking Dashboard
