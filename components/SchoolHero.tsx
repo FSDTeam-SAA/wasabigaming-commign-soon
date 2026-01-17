@@ -169,7 +169,7 @@ export function SchoolHero() {
                         </div>
 
                         {/* Buttons */}
-                        <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center lg:justify-start">
+                        <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center w-full lg:justify-start">
                             <Button className="bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-black font-semibold rounded-full px-10 sm:px-12 py-3 text-base flex items-center gap-2">
                                 <Sparkles className="h-4 w-4 text-black" /> Get Started
                             </Button>
