@@ -66,9 +66,9 @@ const HowALNWorks = () => {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative max-w-md">
               {/* Main Image */}
-              <div className="relative z-10">
+              <div className=" shadow-md z-10">
                 <Image
-                  src="/aln1.jpg"
+                  src="/aln2.png"
                   alt="Woman presenting"
                   width={480}
                   height={650}
@@ -78,8 +78,7 @@ const HowALNWorks = () => {
               </div>
 
               {/* Floating Card */}
-              <div className="absolute -bottom-8 lg:-right-16 -right-6  z-20 shadow-[0_8px_16px_0_#00000014]
- bg-white rounded-2xl p-4 lg:max-w-xs max-w-[240px]">
+              {/* <div className="absolute -bottom-8 lg:-right-16 -right-6  z-20 shadow-[0_8px_16px_0_#00000014] bg-white rounded-2xl p-4 lg:max-w-xs max-w-[240px]">
                 <Image
                   src="/aln2.png"
                   alt="Application preview"
@@ -87,7 +86,7 @@ const HowALNWorks = () => {
                   height={200}
                   className="w-full h-auto rounded-lg"
                 />
-              </div>
+              </div> */}
 
               {/* CTA Button */}
               {/* <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 z-30">
