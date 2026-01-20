@@ -1,4 +1,5 @@
 'use client'
+
 import React, { useEffect, useState } from 'react'
 import {
   Select,
@@ -8,11 +9,12 @@ import {
   SelectValue,
 } from './ui/select'
 import { Button } from './ui/button'
+import { Card, CardContent } from './ui/card'
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
+import { Star } from 'lucide-react'
 
 const Hero = () => {
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const words = ['DREAMS', 'FUTURE', 'PASSION']
-
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
@@ -21,24 +23,67 @@ const Hero = () => {
     }, 2000)
 
     return () => clearInterval(interval)
-  }, [words])
+  }, [])
 
   return (
     <section
-      className=" text-center py-20 px-4 bg-gradient-to-r  overflow-hidden"
+      className="relative text-center py-16 sm:py-20 px-4 overflow-hidden"
       style={{
-        backgroundImage: "url('/hero.jpg')",
+        backgroundImage: "url('/heroImage.png')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      <div className=" flex  justify-center">
-        <div className="">
-          {/* Heading */}
-          <h1 className="text-4xl sm:text-5xl text-center md:text-[52px] leading-10 lg:leading-[60px] font-bold text-gray-900 mb-6">
-            PURSUE YOUR LEGAL <br />{' '}
-            <span className="text-[#E4E403]"> {words[index]} </span>
-            WITH CONFIDENCE
+      {/* Floating Card */}
+      <Card
+        className="
+          mx-auto mb-10 w-72
+          lg:absolute lg:left-16 lg:top-12
+          xl:left-36
+          shadow-[0px_8px_16px_0px_#0000001F]
+        "
+      >
+        <CardContent className="py-5 px-0 flex flex-col items-center gap-5">
+          {/* Avatars */}
+          <div className="flex -space-x-3 sm:-space-x-4">
+            {['/star1.jpg', '/star2.jpg', '/star3.jpg', '/star4.jpg'].map(
+              (src, i) => (
+                <Avatar
+                  key={i}
+                  className="h-10 w-10 sm:h-14 sm:w-14 border-2 border-white ring-2 ring-gray-100"
+                >
+                  <AvatarImage src={src} alt={`Student ${i + 1}`} />
+                  <AvatarFallback>ST</AvatarFallback>
+                </Avatar>
+              )
+            )}
+          </div>
+
+          {/* Stars */}
+          <div className="flex items-center gap-1 text-[#FFC107]">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star key={i} className="h-5 w-5 fill-current" />
+            ))}
+          </div>
+
+          <p className="text-lg font-semibold text-gray-900">
+            Joined by 10K+ Students
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* Heading */}
+      <div className="flex justify-center">
+        <div className="max-w-5xl">
+          <h1
+            className="
+              text-3xl sm:text-5xl md:text-[52px]
+              leading-tight sm:leading-[60px]
+              font-bold text-gray-900 mb-6
+            "
+          >
+            PURSUE YOUR LEGAL <br />
+            <span className="text-[#E4E403]">{words[index]}</span> WITH CONFIDENCE
           </h1>
 
           <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-12 max-w-3xl mx-auto">
@@ -48,7 +93,7 @@ const Hero = () => {
       </div>
 
       {/* Search Bar */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8 w-full max-w-4xl mx-auto">
+       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8 w-full max-w-4xl mx-auto">
         <div
           className="
       flex flex-col sm:flex-row items-center justify-center gap-4 w-full
@@ -87,26 +132,13 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* CTA Buttons */}
-      <div className="flex flex-col relative  sm:flex-row justify-center items-center gap-4 lg:mt-12">
-        <Button className="w-full sm:w-auto bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-[#1E1E1E] border border-[#CACA00] font-bold py-6 px-10 sm:px-16 rounded-full shadow-xl transition-all duration-300 text-lg">
+
+      {/* CTA */}
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10 sm:mt-12">
+        <Button className="w-full sm:w-auto bg-[#FFFF00] hover:bg-[#FFFF00]/90 text-[#1E1E1E] border border-[#CACA00] font-bold py-6 px-10 sm:px-16 rounded-full shadow-xl text-lg">
           Join the Community!
         </Button>
-        {/* <Button variant="outline" className="w-full sm:w-auto border-2 border-[#C2C227] text-[#6B6B6B] font-bold py-4 px-10 sm:px-16 rounded-full transition-all duration-300 text-lg bg-transparent">
-                    Join Community
-                </Button> */}
-        {/* <Image src="/star.png" alt="Logo" width={100} height={100} className="w-16 h-16 absolute top-1/1 right-64" /> */}
       </div>
-
-      {/* Info Section
-            <div className="mt-10 px-4 sm:px-0">
-                <h3 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-                    Everything You Need to Launch Your Career
-                </h3>
-                <p className="text-center text-[#5A5A5A] text-base sm:text-lg mb-12 max-w-3xl mx-auto">
-                    The Aspiring Legal Network equips you with smart tools to build, prepare, and excel in your career.
-                </p>
-            </div> */}
     </section>
   )
 }
