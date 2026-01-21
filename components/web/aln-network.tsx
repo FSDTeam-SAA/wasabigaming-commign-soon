@@ -64,9 +64,9 @@ const HowALNWorks = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-12 md:gap-20 items-center">
           {/* Left Side - Images */}
           <div className="relative flex justify-center lg:justify-end">
-            <div className="relative max-w-md">
+            <div className="relative max-w-[600px] border shadow-md rounded-lg border-gray-200 ">
               {/* Main Image */}
-              <div className=" shadow-md z-10">
+              <div className=" w-full">
                 <Image
                   src="/aln2.png"
                   alt="Woman presenting"
